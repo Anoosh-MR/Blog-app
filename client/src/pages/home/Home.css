@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex: 2;
+    margin-left: 80px;
+    background: lightblue;
+    
+    
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+}

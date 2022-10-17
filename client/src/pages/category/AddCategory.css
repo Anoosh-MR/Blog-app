@@ -1,0 +1,44 @@
+.cat-container{
+  height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ),
+         url("https://images.unsplash.com/photo-1663124163570-856f4bfe4fc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.cat-title{
+font-size: 20px;
+padding-bottom: 40px;
+}
+.cat-form{
+  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.cat-input{
+  padding: 10px;
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+.cat-button{
+  margin:20px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+
+}
+.cat-button:hover{
+  background-color: lightsalmon;
+}
